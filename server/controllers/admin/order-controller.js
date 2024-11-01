@@ -24,9 +24,6 @@ const getAllOrdersOfAllUsers = async (req, res) => {
   }
 };
 
-
-
-
 const getOrderDetailsForAdmin = async (req, res) => {
   try {
     const { id } = req.params;
